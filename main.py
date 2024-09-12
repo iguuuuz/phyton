@@ -30,7 +30,7 @@ class aluno :
         media = self.calcular_media()
         print(f"Nome: {self.__Nome}, média: {ou media:.2f} "o)
 
-aluno1 = aluno("higor", 8 , 9)
+aluno1 = aluno("igor", 8 , 9)
 aluno1.exibir_informacoes()
 
 aluno1.set_nome("lucas")
