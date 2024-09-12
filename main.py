@@ -25,10 +25,10 @@ class aluno :
    
    
     def calcular_media(self):
-        return (self.__nota1 + self.__nota2) / 
+        return (self.__nota1 + self.__nota2) / 2
     def exibir_informacoes(self):
         media = self.calcular_media()
-        print(f"Nome: {self.__Nome}, média: {ou media:.2f} "o)
+        print(f"Nome: {self.__Nome}, média: {media:.2f} "o)
 
 aluno1 = aluno("igor", 8 , 9)
 aluno1.exibir_informacoes()
